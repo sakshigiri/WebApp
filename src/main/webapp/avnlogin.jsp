@@ -4,7 +4,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-	<title><b>Marslander Telecommunications</b></title>
+	<title>Marslander Telecommunications</title>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
