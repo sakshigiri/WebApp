@@ -56,16 +56,16 @@ public class acat {
 		cancel.click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		Thread.sleep(3000);
-		WebElement repair1 = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Repair Ticket Page']")));
-		repair1.isDisplayed();
+		//WebElement repair1 = wait
+		//		.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Repair Ticket Page']")));
+		//repair1.isDisplayed();
 	}
 
 	
 	@Test(priority = 2)
 	public void navigation() {
-		driver.findElement(By.partialLinkText("Home")).click();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.findElement(By.partialLinkText("Home")).click();
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//h2[text()='WELCOME TO YOUR ACCOUNT OVERVIEW']")).isDisplayed();
 		driver.get(URL1);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -77,8 +77,8 @@ public class acat {
 
 	@Test(priority = 3)
 	public void checkout() {
-		driver.findElement(By.partialLinkText("Logout")).click();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.findElement(By.partialLinkText("Logout")).click();
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		//driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
 		driver.findElement(By.name("username")).sendKeys("guest");
 		driver.findElement(By.name("userpassword")).sendKeys("guest");
