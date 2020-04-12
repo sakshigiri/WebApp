@@ -17,7 +17,7 @@ text-align: right;
     background: #158a8c;
     border: 2px solid #158a8c;
     border-radius: 7px;
-    min-height: 200px;
+    min-height: 250px;
 	min-width: 180px;
     padding: 15px;
 }
