@@ -15,7 +15,7 @@
 </head>
 <style>
 body {
-  background: ##FFFFC2;
+  background: #FFFFC2;
   color: #666666;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   font-size: 14px;
@@ -165,7 +165,7 @@ position: absolute;
 </div><br>
 <img src="logopost.jpg" alt="HTML5 Icon" style="width:325px;height:185px;position:absolute;left:60px;top:10px;">
 <b>
-<h1 style="color:#0000FF;font-size: 350%;position:absolute;left:460px;top:80px;">MARSLANDER TELECOMMUNICATION</h1></b>
+<h1 style="color:#0000FF;font-size: 250%;position:absolute;left:460px;top:80px;">MARSLANDER TELECOMMUNICATIONS</h1></b>
 <br><br><br>
 <section class="wlp-login-message-content">
 <p><b>
